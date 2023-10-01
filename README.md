@@ -33,7 +33,10 @@
 
 #### 2. Compiling, Training, and Evaluating the Model
    - The model has 305 neurons, four layers, a reLu activation function on hidden layers, and sigmoid activation function on the output layer. Using the reLu function on hidden layers is a common practice because it is nonlinear yet fast and does not suffer from vanishing gradient problems, and the sigmoid function is a great function for returning probability. I used 128 neurons per hidden layer because it is more than multiple of the input layer's nods, and using a  number that is power of two is efficient for modern hardware.
-   - 
+     ![](https://github.com/MahsaBakhtiari/GrantworthyAI/blob/main/pics/1.png)
+   - The model is performing almost perfect with the acuracy of 99.98% on the test data.
+   - Choosing the right number of nurons, and suitable activation functins and efficient data preprossesing all end up emprove model performance.
+     ![](https://github.com/MahsaBakhtiari/GrantworthyAI/blob/main/pics/2.png)
 
 
     
