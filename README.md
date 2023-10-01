@@ -32,6 +32,7 @@
 - The EIN and NAME—Identification columns were deleted because they didn't provide valuable data to our model.
 
 #### 2. Compiling, Training, and Evaluating the Model
+   - The model has 305 neurons, 4 layers, and reLu activation function on hidden layers and sigmoid activation function on output layer. Using reLu function on hidden layes is a common practice becouse it is a non linear yet fast  and doese not suffer from vanishing gradient problem and sigmoid function is a great function for returning probibility. I used 128 nurons per hidden layer becouse it more than multiple of the input layer and using a  number that is power of two is efficient for modern hardware. 
 
 
     
