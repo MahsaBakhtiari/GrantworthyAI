@@ -2,9 +2,9 @@
 # GrantworthyAI
 ## This repository is a project aimed at developing a deep learning neural network model that assists AlphabetSoup in identifying and choosing funding applicants who are most likely to succeed in their entrepreneurial endeavors.
 
-### The project has two main parts: engineering the dataset and creating the model.
+### The project has two main parts:
 
-### 1. Preprocess the Data
+#### 1. Preprocess the Data
 - Within this dataset are a number of columns that capture metadata about each organization, such as:
     * EIN and NAME—Identification columns
     * APPLICATION_TYPE—Alphabet Soup application type
@@ -29,6 +29,10 @@
     * SPECIAL_CONSIDERATIONS—Special considerations for application
     * ASK_AMT—Funding amount requested
     * IS_SUCCESSFUL—Was the money used effectively
+- The EIN and NAME—Identification columns were deleted because they didn't provide valuable data to our model.
+
+#### 2. Compiling, Training, and Evaluating the Model
+
 
     
     
